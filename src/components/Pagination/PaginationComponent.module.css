@@ -1,0 +1,57 @@
+.pagination {
+  display: flex;
+  padding: 0 70px 0 0;
+}
+
+.page {
+  background-color: #fff;
+  color: black;
+  margin: 10px;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  line-height: 25px;
+  border-radius: 12px;
+}
+
+.selected {
+  color: white;
+  background-color: #2593fb;
+}
+
+.delete {
+  background: #fc5373;
+  color: rgb(0, 0, 0);
+  border-radius: 8px;
+  margin: 0 0 0 80px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  &:hover {
+    background-color: #8c2c2f00;
+    transform: translateX(1px);
+  }
+}
+
+.paginationContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+    .pagination {
+      padding: 0 10px; /* Adjust padding for even smaller screens */
+      width: 80%;
+    }
+  
+    .delete {
+      margin: 0; /* Remove left margin for smaller screens */
+      width: auto;
+      margin-top: 5px;
+    }
+  }

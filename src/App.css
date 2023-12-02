@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 0.9em;
+}
+
+.search {
+  width: 81vw;
+  padding: 1vh 0 1vh 1vw;
+  margin-bottom: 1vh;
+  border-radius: 8px;
+}
+.searchBtn {
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 8px 14px;
+  margin: 0 0 0 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  /* Hover effect */
+  &:hover {
+    background-color: #ffffff;
+  }
+}
+.searchBtn:hover{
+  background-color: #dcdcdc;
+}
+@media (max-width: 768px) {
+  .search {
+    width: 100%;
+  }
+  .searchBtn{
+    margin: 0 0 10px 0;
+  }
+
+  th, td {
+    padding: 5px;
+    font-size: 14px;
+  }
+}
