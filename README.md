@@ -14,7 +14,7 @@ This project is a web-based user interface for administrators to manage users. T
 - [Contributing](#contributing)
 
 ## Demo
-Visit the live demo [here](#)
+Visit the live demo [here](https://hire-quotient-admin.vercel.app/)
 
 ## Features
 1. **Column Titles Stand Out**: The column titles are designed to stand out from the entries, ensuring clarity and easy identification.
@@ -57,7 +57,7 @@ This project utilizes the following libraries:
 3. Perform actions such as searching, editing, deleting, and selecting users.
 
 ## Deployment
-The application is deployed on Vercel. Visit [deployed URL](#) to access the live demo.
+The application is deployed on Vercel. Visit [deployed URL](https://hire-quotient-admin.vercel.app/) to access the live demo.
 
 ## API Endpoint
 The user data is retrieved from the following API endpoint:
